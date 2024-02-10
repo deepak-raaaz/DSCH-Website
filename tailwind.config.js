@@ -14,6 +14,9 @@ module.exports = {
                     "700": "#B5441B",
                     "800": "#8C3515",
                     "900": "#6B2810"
+                },
+                base: {
+                    "text-box": "#F1F5F9"
                 }
             },
             fontFamily: {
