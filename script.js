@@ -39,7 +39,7 @@ themeToggleBtn.addEventListener('click', function () {
 
 });
 
-
+// Member section swiper
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 4,
   spaceBetween: 30,
