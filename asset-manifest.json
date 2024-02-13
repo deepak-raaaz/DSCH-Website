@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/DSCH-Website/static/css/main.9e59c0cd.css",
-    "main.js": "/DSCH-Website/static/js/main.15a0ee29.js",
+    "main.css": "/DSCH-Website/static/css/main.79f1ae24.css",
+    "main.js": "/DSCH-Website/static/js/main.7a01342a.js",
+    "static/media/event-poster-1.jpg": "/DSCH-Website/static/media/event-poster-1.ef926475467f5ad733da.jpg",
     "static/media/ds-img-dark.svg": "/DSCH-Website/static/media/ds-img-dark.1450bf98979b304804756be6a709dc93.svg",
     "static/media/ds-img.svg": "/DSCH-Website/static/media/ds-img.318b82dfe5f83ac9954be5f0007630c0.svg",
     "static/media/profile-picture-2.jpg": "/DSCH-Website/static/media/profile-picture-2.2a7d8e814f22e4a4956f.jpg",
     "static/media/profile.webp": "/DSCH-Website/static/media/profile.48ac9d3663410c477923.webp",
     "index.html": "/DSCH-Website/index.html",
-    "main.9e59c0cd.css.map": "/DSCH-Website/static/css/main.9e59c0cd.css.map",
-    "main.15a0ee29.js.map": "/DSCH-Website/static/js/main.15a0ee29.js.map"
+    "main.79f1ae24.css.map": "/DSCH-Website/static/css/main.79f1ae24.css.map",
+    "main.7a01342a.js.map": "/DSCH-Website/static/js/main.7a01342a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e59c0cd.css",
-    "static/js/main.15a0ee29.js"
+    "static/css/main.79f1ae24.css",
+    "static/js/main.7a01342a.js"
   ]
 }
