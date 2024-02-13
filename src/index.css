@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    @apply font-poppins;
+  }
+  
+}
+.navlink{
+  @apply block py-2 px-3 md:p-0 max-md:my-1 text-base text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-brand-600 md:dark:hover:text-brand-500-main dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700;
+}
+.active{
+  @apply max-md:my-1 text-base text-white max-md:bg-brand-600 rounded md:bg-transparent md:text-brand-600 md:dark:text-brand-500-main;
+}
+
+.swiper-wrapper{
+  padding-bottom: 50px;
+}
+.swiper-pagination {
+  margin-top: 120px; /* Adjust as needed */
+}
+.swiper-pagination-bullet {
+  background: #333 !important;
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.dark .swiper-pagination-bullet{
+  background: #fff !important;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
