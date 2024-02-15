@@ -63,7 +63,7 @@ export default function ToastNotification() {
                         >
                             <Modal.Header>{notification.notification.heading}</Modal.Header>
                             <Modal.Body className='' >
-                                <div className="space-y-6 p-6">
+                                <div className="space-y-6 p-6 max-md:p-2">
                                     <img src={notification.notification.bannerUrl} alt="" className="w-[80%] max-md:w-full rounded-2xl overflow-hidden" />
                                     <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                                         {notification.notification.description} 
