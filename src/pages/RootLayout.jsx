@@ -43,7 +43,7 @@ function RootLayout() {
                             Home
                         </NavLink>
                         <NavLink to="/events" className="navlink">Events</NavLink>
-                        <NavLink to="/member" className="navlink">Members</NavLink>
+                        <NavLink to="/members" className="navlink">Members</NavLink>
                         <NavLink to="/about" className="navlink">About</NavLink>
                         <NavLink to="/contact" className="navlink">Contact</NavLink>
                     </NavbarCollapse>
@@ -77,7 +77,7 @@ function RootLayout() {
                                 <li>
                                     <Link
                                         activeClass="active"
-                                        to="#member"
+                                        to="/members"
                                         spy={true}
                                         smooth={true}
                                         offset={-70} 

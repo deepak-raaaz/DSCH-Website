@@ -4,19 +4,22 @@ import './index.css';
 import App from './App';
 import { StateProvider } from './utils/StateProvider';
 import reducer, { initialState } from './utils/reducer';
-import { BrowserRouter } from 'react-router-dom';
+import {  HashRouter } from 'react-router-dom';
 import { StyledEngineProvider } from '@mui/material';
+import ScrollToTop from './utils/ScrollToTop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
-      <BrowserRouter>
+      <HashRouter>
+        <ScrollToTop/>
+      {/* <BrowserRouter > */}
         <StateProvider initialState={initialState} reducer={reducer}>
           <App />
         </StateProvider>
-      </BrowserRouter>
+      </HashRouter>
     </StyledEngineProvider>
   </React.StrictMode>
 );

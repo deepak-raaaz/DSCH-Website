@@ -1,22 +1,29 @@
 import { reducerCases } from "./constants";
 
 export const initialState = {
-    skills : [],
-    projects: []
+    eventList : [],
+    eventDetails : {},
+    upComingEvent : {},
 };
 
 const reducer = (state, action) => {
     switch(action.type) {
-        case reducerCases.SET_SKILLS : {
+        case reducerCases.SET_EVENT_LIST : {
             return {
                 ...state,
-                skills: action.skills,
+                eventList: action.eventList,
             };
         }
-        case reducerCases.SET_PROJECTS : {
+        case reducerCases.SET_EVENT_DETAILS : {
             return {
                 ...state,
-                projects: action.projects,
+                eventDetails: action.eventDetails,
+            };
+        }
+        case reducerCases.SET_UPCOMING_EVENT : {
+            return {
+                ...state,
+                upComingEvent: action.upComingEvent,
             };
         }
         default:
