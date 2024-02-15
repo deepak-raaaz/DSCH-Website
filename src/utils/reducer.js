@@ -6,6 +6,7 @@ export const initialState = {
     testimonials : [],
     eventDetails : {},
     upComingEvent : {},
+    notification : {},
 };
 
 const reducer = (state, action) => {
@@ -38,6 +39,12 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 testimonials: action.testimonials,
+            };
+        }
+        case reducerCases.SET_NOTIFICATION : {
+            return {
+                ...state,
+                notification: action.notification,
             };
         }
         default:

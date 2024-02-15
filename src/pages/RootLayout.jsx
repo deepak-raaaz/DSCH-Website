@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, DarkThemeToggle, Navbar, NavbarBrand, NavbarCollapse,  NavbarToggle } from 'flowbite-react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import BrandLogo from '../components/BrandLogo';
+import ToastNotification from '../components/ToastNotification';
 
 const customTheme = {
     link: {
@@ -26,6 +27,8 @@ const buttonTheme = {
 function RootLayout() {
     return (
         <>
+   <ToastNotification/>
+
             <div className='bg-white border-gray-200 dark:bg-gray-950  fixed w-full z-20 top-0 start-0  dark:border-gray-600 '>
                 <Navbar fluid rounded className='max-w-screen-xl  mx-auto text-lg dark:bg-transparent' theme={customTheme}>
                     <NavbarBrand >
