@@ -5,7 +5,7 @@ import { Avatar } from 'flowbite-react'
 function TestimonialCard(props) {
     return (
         <div
-            className="overflow-hidden rounded-2xl p-4 mx-2  w-[16rem] border-slate-300 dark:border-slate-800 border-2 dark:bg-slate-900">
+            className="overflow-hidden rounded-2xl p-4 mx-2 h-[16rem] w-[16rem] border-slate-300 dark:border-slate-800 border-2 dark:bg-slate-900">
             <div className="flex items-center">
                    <Avatar alt="avatar of Jese" rounded />
                 <div className="ms-4">
@@ -37,7 +37,7 @@ function TestimonialCard(props) {
 
 
             </div>
-            <p className="text-left text-slate-900 mx-1 text-sm line-clamp-[8] dark:text-slate-400">
+            <p className="text-left text-slate-900 mx-1 text-sm line-clamp-[7] dark:text-slate-400">
                 {props.reviewComment}</p>
         </div>
     )

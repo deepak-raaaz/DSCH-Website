@@ -12,7 +12,7 @@ function HeroSection() {
                 <div className="max-w-screen-xl grid grid-cols-12 gap-8 mx-auto  p-4 ">
                     <div className="col-span-12 md:col-span-6 my-16 max-md:my-1 order-1 max-md:order-2">
                         <h1 className="text-lg tracking-widest font-semibold text-brand-600 ms-1">DSCH</h1>
-                        <h1 className="text-5xl max-md:text-3xl font-semibold text-slate-900 dark:text-white ">Empowered by Data, Led by Insight</h1>
+                        <h1 className="text-5xl max-md:text-3xl font-semibold text-slate-900 dark:text-white ">Empowered by Data, Led by Insight.</h1>
                         <p className="line-clamp-4 text-lg my-4 text-slate-700 dark:text-slate-300">Welcome to a community
                             passionate about delving into the realm of data. Our Data Science Club is a hub for enthusiasts,
                             beginners, and experts alike, dedicated to exploring the forefront of technology, predictive
