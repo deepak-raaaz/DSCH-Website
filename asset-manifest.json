@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DSCH-Website/static/css/main.5f4de9d0.css",
-    "main.js": "/DSCH-Website/static/js/main.a910e597.js",
+    "main.css": "/DSCH-Website/static/css/main.22d31407.css",
+    "main.js": "/DSCH-Website/static/js/main.a8f90098.js",
     "static/media/ds-img-dark.svg": "/DSCH-Website/static/media/ds-img-dark.1450bf98979b304804756be6a709dc93.svg",
     "static/media/ds-img.svg": "/DSCH-Website/static/media/ds-img.318b82dfe5f83ac9954be5f0007630c0.svg",
     "static/media/profile-picture-2.jpg": "/DSCH-Website/static/media/profile-picture-2.2a7d8e814f22e4a4956f.jpg",
     "static/media/profile.webp": "/DSCH-Website/static/media/profile.48ac9d3663410c477923.webp",
     "index.html": "/DSCH-Website/index.html",
-    "main.5f4de9d0.css.map": "/DSCH-Website/static/css/main.5f4de9d0.css.map",
-    "main.a910e597.js.map": "/DSCH-Website/static/js/main.a910e597.js.map"
+    "main.22d31407.css.map": "/DSCH-Website/static/css/main.22d31407.css.map",
+    "main.a8f90098.js.map": "/DSCH-Website/static/js/main.a8f90098.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f4de9d0.css",
-    "static/js/main.a910e597.js"
+    "static/css/main.22d31407.css",
+    "static/js/main.a8f90098.js"
   ]
 }
