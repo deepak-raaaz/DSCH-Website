@@ -21,7 +21,7 @@ function EventDetails() {
         const getEventDetails = async () => {
             await axios.get(`${api_url}sheetName=events&action=getEventByID&id=${id}`)
                 .then(response => {
-                    console.log('2 call');
+                    // console.log('2 call');
                     //   console.log(response.data.data);
                     const eventDetails = response.data.data;
 
@@ -34,7 +34,7 @@ function EventDetails() {
         }
         getEventDetails();
     }, [dispatch, id]);
-    console.log(eventDetails);
+    // console.log(eventDetails);
 
     return (
         <>

@@ -16,7 +16,7 @@ function AllEventSection() {
     const getEventList = async () => {
       await axios.get(`${api_url}sheetName=events&action=getEventList`)
         .then(response => {
-          console.log('1 call');
+          // console.log('1 call');
           const eventList = response.data.data.map((items) => {
             return {
               id: items._id,
