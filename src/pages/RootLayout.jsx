@@ -28,9 +28,13 @@ function RootLayout() {
         <>
             <div className='bg-white border-gray-200 dark:bg-gray-950  fixed w-full z-20 top-0 start-0  dark:border-gray-600 '>
                 <Navbar fluid rounded className='max-w-screen-xl  mx-auto text-lg dark:bg-transparent' theme={customTheme}>
-                    <NavbarBrand href="/">
+                    <NavbarBrand >
+                        <Link to="/"> 
                         <BrandLogo />
+                        </Link>
+                        <Link to="/">
                         <span className="ms-4 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DSCH</span>
+                        </Link>
                     </NavbarBrand>
                     <div className="flex md:order-2">
                         <DarkThemeToggle className='text-slate-900 border border-none bg-gray-200 hover:bg-brand-600 hover:text-white  font-medium   dark:border-brand-500-main dark:bg-slate-800 dark:text-white dark:hover:text-white dark:hover:bg-brand-500-main focus:outline-none focus:ring-0 ' />

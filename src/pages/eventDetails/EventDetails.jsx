@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { useStateProvider } from '../../utils/StateProvider';
 import axios from 'axios';
 import { reducerCases } from '../../utils/constants';

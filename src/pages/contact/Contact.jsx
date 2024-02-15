@@ -4,7 +4,7 @@ import ContactSection from '../home/ContactSection'
 function Contact() {
   return (
     <>
-        <ContactSection />
+        <ContactSection className="max-md:pt-[5rem]"/>
     </>
   )
 }

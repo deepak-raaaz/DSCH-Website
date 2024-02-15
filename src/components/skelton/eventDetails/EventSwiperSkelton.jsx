@@ -16,7 +16,7 @@ function EventSwiperSkelton() {
 
     return (
         <section
-            className="h-auto  max-md:h-auto  overflow-hidden pt-[2rem] max-md:pt-3" >
+            className="h-auto  max-md:h-auto  overflow-hidden pt-[4rem] max-md:pt-3" >
             <div className="max-w-screen-xl mx-auto p-4">
                 <div class="relative my-8">
                     <Swiper

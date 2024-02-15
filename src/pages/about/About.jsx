@@ -4,7 +4,7 @@ import AboutSection from '../home/AboutSection'
 function About() {
   return (
     <>
-        <AboutSection/>
+        <AboutSection className="max-md:pt-[5rem]" button="hidden" />
     </>
   )
 }

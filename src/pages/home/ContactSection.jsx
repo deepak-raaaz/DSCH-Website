@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ContactSection() {
+function ContactSection(props) {
   return (
-    <section id="contact" className="h-[100vh] max-md:h-auto  overflow-hidden max-h-[45rem] max-md:max-h-none min-h-[40rem] pt-[5rem] max-md:pt-5">
+    <section id="contact" className={`h-[100vh] max-md:h-auto  overflow-hidden max-h-[45rem] max-md:max-h-none min-h-[40rem] pt-[5rem] max-md:pt-5 ${props.className}`}>
         <div className="max-w-screen-xl grid grid-cols-12 gap-8 mx-auto p-4">
             <div className="col-span-12 md:col-span-6 order-1">
                 <h1 className="text-lg tracking-widest font-semibold text-brand-600 ms-1">Contact us</h1>

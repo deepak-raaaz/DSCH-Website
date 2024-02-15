@@ -3,6 +3,7 @@ import ProfileImages1 from '../../assets/images/profile-picture-2.jpg'
 import HeroImageLight from '../../assets/images/hero-section-dsch.png'
 import HeroImageDark from '../../assets/images/hero-section-dsch-dark.png'
 import { Avatar } from 'flowbite-react'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
     return (
@@ -26,7 +27,7 @@ function HeroSection() {
                             <Avatar.Counter total={15} href="#" />
                         </Avatar.Group>
                         <div className="my-8 space-x-3">
-                            <button type="button"
+                            <Link type="button" to="/"
                                 className="text-white bg-brand-500-main hover:bg-brand-600  focus:outline-none text-center inline-flex items-center  font-medium rounded-lg text-sm px-4 py-2  dark:bg-brand-600 dark:hover:bg-brand-700 ">
                                 Join Now
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -34,8 +35,8 @@ function HeroSection() {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M1 5h12m0 0L9 1m4 4L9 9" />
                                 </svg>
-                            </button>
-                            <button type="button"
+                            </Link>
+                            <Link type="button" to="/about"
                                 className="text-slate-900 dark:text-white bg-slate-200 hover:bg-slate-300  focus:outline-none text-center inline-flex items-center  font-medium rounded-lg text-sm px-4 py-2  dark:bg-slate-800 dark:hover:bg-slate-700 ">
                                 Read More
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -43,7 +44,7 @@ function HeroSection() {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M1 5h12m0 0L9 1m4 4L9 9" />
                                 </svg>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-span-12 md:col-span-6 flex justify-center items-center order-2  max-md:px-0">

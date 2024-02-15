@@ -2,6 +2,8 @@ import { reducerCases } from "./constants";
 
 export const initialState = {
     eventList : [],
+    members : [],
+    testimonials : [],
     eventDetails : {},
     upComingEvent : {},
 };
@@ -24,6 +26,18 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 upComingEvent: action.upComingEvent,
+            };
+        }
+        case reducerCases.SET_MEMBERS : {
+            return {
+                ...state,
+                members: action.members,
+            };
+        }
+        case reducerCases.SET_TESTIMONIALS : {
+            return {
+                ...state,
+                testimonials: action.testimonials,
             };
         }
         default:
